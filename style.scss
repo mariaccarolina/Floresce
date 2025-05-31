@@ -1,11 +1,85 @@
-body{
+// CORES PRINCIPAIS
+$cor-vinho: #8c0a2f;
+$cor-verde-claro: #a3d9a5;
+
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
-    background-color: #800020;
+h2 {
+    font-size: 2.5rem;
+    color: $cor-vinho;
+    margin-bottom: 1rem;
+}
+.btn {
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.primeiro {
+    color: $cor-vinho;
+    background-color: #A2D4A1;
+}
+
+.segundo {
+    background-color: $cor-vinho;
     color: white;
-    padding: 10px;
+}
+
+.sessao-buques {
+    text-align: center;
+    .galeria-buques {
+       margin:  0 auto; // centraliza os blocos na horizontal
+    }
+
+    .buque {
+        display: inline-block;
+        width: 350px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.sessao-kits {
+    padding: 2rem;
+    text-align: center;
+    background-color: $cor-verde-claro;
+}
+
+.kit {
+    display: inline-block;
+    width: 250px;
+    margin: 0 10px 20px;
+    vertical-align: top;
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+.mensagem-kits {
+    background-color: $cor-vinho;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+
+    a {
+        background-color: $cor-verde-claro;
+        color: $cor-vinho;
+        border: none;
+        padding: 0.5rem 1.5rem;
+        font-weight: bold;
+        border-radius: 30px;
+        cursor: pointer;
+        text-decoration: none;
+    }
 }

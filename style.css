@@ -4,8 +4,76 @@ body {
   box-sizing: border-box;
 }
 
-header {
-  background-color: #800020;
+h2 {
+  font-size: 2.5rem;
+  color: #8c0a2f;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 10px 15px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.primeiro {
+  color: #8c0a2f;
+  background-color: #A2D4A1;
+}
+
+.segundo {
+  background-color: #8c0a2f;
   color: white;
-  padding: 10px;
+}
+
+.sessao-buques {
+  text-align: center;
+}
+.sessao-buques .galeria-buques {
+  margin: 0 auto;
+}
+.sessao-buques .buque {
+  display: inline-block;
+  width: 350px;
+}
+.sessao-buques .buque img {
+  width: 100%;
+}
+
+.sessao-kits {
+  padding: 2rem;
+  text-align: center;
+  background-color: #a3d9a5;
+}
+
+.kit {
+  display: inline-block;
+  width: 250px;
+  margin: 0 10px 20px;
+  vertical-align: top;
+}
+.kit img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mensagem-kits {
+  background-color: #8c0a2f;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.mensagem-kits a {
+  background-color: #a3d9a5;
+  color: #8c0a2f;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
