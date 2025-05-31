@@ -5,7 +5,23 @@ Bem-vindo(a) ao projeto **Florence Flores**!
 Essa é uma página especial criada para uma floricultura que deseja apresentar **kits personalizados e prontos para presentear no Dia dos Namorados**. A ideia é facilitar a escolha do presente perfeito, destacando produtos, formas de compra e prazos de entrega de forma bonita e clara.
 
 ---
+## 💡 Problema apresentado pela cliente
 
+> “Tenho uma floricultura, e com o Dia dos Namorados chegando, estou recebendo muitos pedidos pelo WhatsApp, mas tá tudo bagunçado. Os clientes ficam perguntando o que tem disponível, preços, horários de entrega… Eu queria organizar isso e facilitar as vendas.”
+
+---
+
+## ✅ Solução desenvolvida
+
+A proposta foi criar uma **landing page temática** de Dia dos Namorados com os seguintes objetivos:
+- Apresentar os kits disponíveis de forma clara e visual
+- Informar sobre personalizações e formas de pedido
+- Oferecer uma navegação simples e agradável, sem distrações
+- Organizar as informações que antes estavam espalhadas em conversas no WhatsApp
+
+Tudo isso com um **design acolhedor e romântico**, que combina com a proposta da marca Florence Flores.
+
+---
 ## 🌐 Tecnologias utilizadas
 
 ### 📄 HTML (HyperText Markup Language)
