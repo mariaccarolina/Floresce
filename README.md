@@ -1,4 +1,5 @@
 # 💐 Florence Flores – Página Especial de Dia dos Namorados
+## 🚧👷🏼‍♀️Página em construção🚧👷🏼‍♀️
 
 Bem-vindo(a) ao projeto **Florence Flores**!  
 Essa é uma página especial criada para uma floricultura que deseja apresentar **kits personalizados e prontos para presentear no Dia dos Namorados**. A ideia é facilitar a escolha do presente perfeito, destacando produtos, formas de compra e prazos de entrega de forma bonita e clara.
