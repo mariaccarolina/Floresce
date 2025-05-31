@@ -1,7 +1,20 @@
-// CORES PRINCIPAIS
+// Variaveis de Cores 
 $cor-vinho: #8c0a2f;
 $cor-verde-claro: #a3d9a5;
 
+// @mixin é um block de estilo que podemos armazenar propriedades  reutiliza-la várias vezes usando o @includes
+//sempre que quiser aplicar.
+@mixin botao {
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+//medidas -> px medida fixa,
+//% medida -> relativa ao elemento pai
+// rem -> relativo ao root/raiz (geralmente 16px)
 body {
     margin: 0;
     padding: 0;
@@ -14,16 +27,13 @@ h2 {
     margin-bottom: 1rem;
 }
 .btn {
-    padding: 10px 15px;
-    text-decoration: none;
-    margin: 10px;
+    @include botao;//incluido o @mixin
     display: inline-block;
-    border-radius: 5px;
 }
 
 .primeiro {
     color: $cor-vinho;
-    background-color: #A2D4A1;
+    background-color: $cor-verde-claro;//incluindo a váriavel
 }
 
 .segundo {
@@ -33,6 +43,7 @@ h2 {
 
 .sessao-buques {
     text-align: center;
+    //fazendo aninhamento
     .galeria-buques {
        margin:  0 auto; // centraliza os blocos na horizontal
     }
@@ -73,14 +84,9 @@ h2 {
     margin: 0 auto;
 
     a {
+        @include botao;
         background-color: $cor-verde-claro;
         color: $cor-vinho;
-        border: none;
-        padding: 0.5rem 1.5rem;
-        font-weight: bold;
-        border-radius: 30px;
-        cursor: pointer;
-        text-decoration: none;
     }
 }
 .como-funciona {
@@ -90,10 +96,6 @@ h2 {
     h2 {
         color: #8c0a2f;
         margin-bottom: 0.5rem;
-    }
-
-    >p {
-        margin-bottom: 2rem;
     }
 
     .etapas {
@@ -110,10 +112,6 @@ h2 {
             h4 {
                 color: #8c0a2f;
                 margin-bottom: 0.5rem;
-            }
-
-            p {
-                font-size: 0.95rem;
             }
         }
     }
@@ -132,50 +130,88 @@ h2 {
             margin-bottom: 1rem;
         }
 
-        p {
-            line-height: 1.5;
-        }
-
        a {
-            margin-top: 1rem;
-            background: #8c0a2f;
-            color: #fff;
-            border: 0;
-            border-radius: 20px;
-            padding: 0.6rem 1.5rem;
-            cursor: pointer;
-            font-weight: bold;
+           @include botao;
+           background-color: $cor-vinho;
+           color: white;
         }
-    }
-}
-.formulario{
-    background-color: $cor-verde-claro;
-    padding: 2rem;
-    text-align: center;
+    } }
+    .formulario{
+        background-color: $cor-verde-claro;
+        text-align: center;
+        padding: 2rem;
 
-    form {
+        form{
             background-color: white;
             padding: 2rem;
             max-width: 600px;
             margin: 0 auto;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            
-    fieldset {
-        border: none;
-  
-        legend {
-          font-weight: bold;
-          color: $verde-claro;
-          font-size: 1.5rem;
+
+            fieldset{
+                border: none;
+
+                    legend{
+                        font-weight: bold;
+                        color: $cor-verde-claro;
+                        font-size: 1.5rem;
+                    }
+            } 
         }
     }
-}}
+
+    label{
+        font-weight: bold;
+        input, textarea{
+            display: block;
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.3rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+    }
+
+    button{
+        @include botao;
+        background-color: $cor-verde-claro;
+        color: $cor-vinho;
+        margin-top: 1rem;
+    }
+
+    .rodape{
+        background-color: $cor-vinho;
+        color: white;
+        text-align: center;
+
+        .coluna{
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            margin-right: 3%;
+            margin-bottom: 1rem;
+        }
+    }
+
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            margin-bottom: 0.5rem;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
 
 
-.rodape{
-    text-align: center;
-}
+
 
 
 
