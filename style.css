@@ -76,4 +76,73 @@ h2 {
   border-radius: 30px;
   cursor: pointer;
   text-decoration: none;
+}
+
+.como-funciona {
+  text-align: center;
+  padding: 2rem;
+}
+.como-funciona h2 {
+  color: #8c0a2f;
+  margin-bottom: 0.5rem;
+}
+.como-funciona > p {
+  margin-bottom: 2rem;
+}
+.como-funciona .etapas div {
+  display: inline-block;
+  width: 240px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.0666666667);
+  vertical-align: top;
+  text-align: center;
+}
+.como-funciona .etapas div h4 {
+  color: #8c0a2f;
+  margin-bottom: 0.5rem;
+}
+.como-funciona .etapas div p {
+  font-size: 0.95rem;
+}
+.como-funciona .prazos {
+  margin: 2rem auto;
+  padding: 1.5rem;
+  width: 460px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.0666666667);
+  background: #fff;
+  text-align: center;
+}
+.como-funciona .prazos h4 {
+  color: #8c0a2f;
+  margin-bottom: 1rem;
+}
+.como-funciona .prazos p {
+  line-height: 1.5;
+}
+.como-funciona .prazos a {
+  margin-top: 1rem;
+  background: #8c0a2f;
+  color: #fff;
+  border: 0;
+  border-radius: 20px;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formulario {
+  background-color: #a3d9a5;
+  padding: 2rem;
+  text-align: center;
+}
+.formulario form {
+  background-color: white;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }/*# sourceMappingURL=style.css.map */
