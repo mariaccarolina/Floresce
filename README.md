@@ -22,6 +22,13 @@ A proposta foi criar uma **landing page temática** de Dia dos Namorados com os 
 Tudo isso com um **design acolhedor e romântico**, que combina com a proposta da marca Florence Flores.
 
 ---
+
+## ✨ Link do Layout no Figma
+
+Você pode visualizar o layout do projeto clicando no link abaixo:
+
+🔗 [Acessar Figma do Projeto](https://www.figma.com/design/8Ie0uQQth1R0MV7W1CWMGn/Dia-dos-Namorados?node-id=0-1&p=f&t=KZ0hinDH560X4u9Z-0)
+
 ## 🌐 Tecnologias utilizadas
 
 ### 📄 HTML (HyperText Markup Language)
