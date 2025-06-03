@@ -55,9 +55,9 @@ Foram utilizadas **duas cores principais**:
 Além disso, usamos a **cor branca**, que é padrão de fundo em muitas partes da página para dar leveza.
 
 ### 🔤 Tipografia
-A tipografia foi escolhida com base na legibilidade e no estilo da proposta romântica da página.  
-Foram aplicados tamanhos adequados para cada elemento com o uso de diferentes **unidades de medida**:
-
+## 🔠 Fontes utilizadas
+- Actor: aplicada em todo o corpo do site, oferecendo uma leitura fluida e limpa.
+- Abril Fatface: utilizada nos títulos e destaques, trazendo um toque marcante e sofisticado, ideal para o clima do Dia dos Namorados.
 ---
 
 ## 📐 Unidades de Medida Utilizadas
