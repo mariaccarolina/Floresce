@@ -2,12 +2,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Actor", sans-serif;
 }
 
 h2 {
   font-size: 2.5rem;
   color: #8c0a2f;
   margin-bottom: 1rem;
+  font-family: "Abril Fatface", serif;
 }
 
 .btn {
